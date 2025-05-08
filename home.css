@@ -85,3 +85,20 @@ header {
 .menus-links li a:hover {
     color: #db2434;
 }
+
+
+.hambeger {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+.mobile-menu-action {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 95%;
+}   
