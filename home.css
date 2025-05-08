@@ -109,14 +109,58 @@ header {
 
 
 .hero {
+    display: flex;
     height: 70vh ;
     background: url("https://templatemo.com/templates/templatemo_507_victory/img/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     text-align: center;
-    display: block;
+    /* display: block; */
+   
+    
 }
+.info-hero  {
+    /* display: flex; */
+    margin-top: 9rem;
+    /* color: #eaf0ff; */
+    
+}
+
+.info-hero h2 {
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: #ffffff;
+    margin: 20px 0px 10px;
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    
+   
+}
+
+.info-hero h4{
+    /* margin-top: 5rem; */
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin: 0px 0px 10px;
+    text-transform: uppercase;
+}
+
+.info-hero p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+/* 
+.info-hero a {
+    padding: 12px 20px;
+    background-color: #f274f5;
+    padding: 20px ;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+
+} */
 
 
 @media(max-width: 768px) {
