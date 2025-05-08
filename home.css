@@ -132,4 +132,28 @@ header {
         height: 50px;
         color: white;
     }
+
+
+    .mobile-menu {
+        display: flex;
+        position: fixed;
+        background-color: #2b2b2b;
+        inset: 0 0 0 0;
+        justify-content: center;
+        color: white;
+        transform: translatez(0%);
+        transition: transform 350ms ease-in-out;
+        
+       }
+         
+       .mobile-menu[data-visible="false"] {
+           transform: translatey(100%);
+       }
+   
+       .hambeger i[data-visible="true"] {
+           display: block;
+       }
+
+
+
 }
