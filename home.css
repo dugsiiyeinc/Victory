@@ -108,7 +108,7 @@ header {
 }   
 
 
-.hero {
+/* .hero {
     height: 70vh ;
     background: url("https://templatemo.com/templates/templatemo_507_victory/img/banner-bg.jpg");
     background-repeat: no-repeat;
@@ -116,7 +116,7 @@ header {
     background-position: center;
     text-align: center;
     display: block;
-}
+} */
 
 
 @media(max-width: 768px) {
