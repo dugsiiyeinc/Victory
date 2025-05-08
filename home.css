@@ -59,3 +59,16 @@ header {
     text-decoration: none;
     
 }
+
+
+/* menus links */
+.menus-links {
+    display: flex; 
+    gap: 5rem;
+    margin-top: 5rem;
+    /* text-transform: uppercase; */
+}
+
+.menus-links li {
+    list-style: none;
+}
