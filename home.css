@@ -102,3 +102,34 @@ header {
     gap: 2rem;
     width: 95%;
 }   
+
+
+@media(max-width: 768px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    i {
+        z-index: 11111;
+    }
+
+     /* header {
+        top: 3rem;
+    }  */
+
+    .hambeger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 5%;
+        right: 10px;
+        background-color: #848fda;
+        padding: 10px 10px;
+        border-radius: 50%;
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+        color: white;
+    }
+}
