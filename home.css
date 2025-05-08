@@ -11,6 +11,10 @@ body {
     font-family: 'Roboto', arial, sans-serif;;
 }
 
+image {
+    width: 100%;
+}
+
 .container {
     width: min(90%, 1120px);
     margin-inline: auto;
@@ -102,6 +106,17 @@ header {
     gap: 2rem;
     width: 95%;
 }   
+
+
+.hero {
+    height: 70vh ;
+    background: url("https://templatemo.com/templates/templatemo_507_victory/img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: block;
+}
 
 
 @media(max-width: 768px) {
