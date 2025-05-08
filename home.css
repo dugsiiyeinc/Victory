@@ -151,7 +151,7 @@ header {
     color: #ffffff;
     margin-bottom: 2rem;
 }
-/* 
+
 .info-hero a {
     padding: 12px 20px;
     background-color: #f274f5;
@@ -160,7 +160,7 @@ header {
     border-radius: 5px;
     font-size: 1.2rem;
 
-} */
+}
 
 
 @media(max-width: 768px) {
@@ -172,9 +172,9 @@ header {
         z-index: 11111;
     }
 
-     /* header {
-        top: 3rem;
-    }  */
+     header {
+        top: 0;
+    } 
 
     .hambeger {
         display: flex;
@@ -238,6 +238,11 @@ header {
    .menus-links li a {
     color: rgb(245, 227, 227);
    }
+
+   /* .hero {
+    width: 100%;
+    height: 100%;
+   } */
 
 
 }
