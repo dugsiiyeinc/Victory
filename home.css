@@ -33,3 +33,13 @@ header {
     padding: 5px;
     /* margin-top: 2rem; */
 }
+
+.logo-header {
+    
+    position: absolute;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    color: #2c343b;
+    font-family: 'Roboto', sans-serif;
+     
+}
