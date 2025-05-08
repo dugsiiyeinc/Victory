@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    width: min(90%, 1220px);
+    width: min(90%, 1120px);
     margin-inline: auto;
 }
 
@@ -24,11 +24,3 @@ header {
     top: 0;
 }
 
-.desktop-menu {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin-top: 2rem;
-}
