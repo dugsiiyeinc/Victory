@@ -72,3 +72,16 @@ header {
 .menus-links li {
     list-style: none;
 }
+
+.menus-links li a {
+    font-family: 'specical', sans-serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #362e26;
+}
+
+.menus-links li a:hover {
+    color: #db2434;
+}
