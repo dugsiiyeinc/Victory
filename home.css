@@ -43,3 +43,19 @@ header {
     font-family: 'Roboto', sans-serif;
      
 }
+
+.logo-header a {
+    text-decoration: none;
+    color: #362e26;
+    font-size: 3rem;
+}
+
+
+
+.desktop-menu li {
+    list-style: none;
+}
+.desktop-menu li a {
+    text-decoration: none;
+    
+}
