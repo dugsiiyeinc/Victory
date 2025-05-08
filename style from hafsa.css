@@ -97,16 +97,16 @@ header {
     gap: 2rem;
     width: 95%;
 } 
-.banner{
-    background: url("https://templatemo.com/templates/templatemo_507_victory/img/banner-bg.jpg");
+.menu{
+    background: url("https://templatemo.com/templates/templatemo_507_victory/img/heading-bg.jpg");
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
     padding: 5px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 } 
-.conteint-banner{
+.conteint-menu{
     display: block;
     padding-left: 15px;
     padding-right: 15px;
@@ -117,7 +117,7 @@ header {
     justify-content: center;
     text-align: center;
 } 
-.conteint-banner h2{
+.conteint-menu h2{
     font-size: 44px;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -126,18 +126,10 @@ header {
     text-transform: uppercase;
     margin-block-end: 10px;
     margin-block-start: 20px;
-}
-.conteint-banner h4{
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    line-height: 16.5px;
-    margin-bottom: 10px;
     margin-top: 60px;
-    text-transform: uppercase;
-    margin-block-end: 10px;
 }
-.conteint-banner p{
+
+.conteint-menu p{
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -145,22 +137,6 @@ header {
     margin-bottom: 10px;
     margin-block-end: 10px;
 }
-.primary-button a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    line-height: 18.5714px;
-    font-weight: 500;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-.primary-button{
-    background-color:rgb(242, 116, 95);
-    border-radius: 3px;
-    display: inline-block;
-    padding: 12px 20px;
-}
-
 
 @media(max-width: 768px) {
     .desktop-menu {
