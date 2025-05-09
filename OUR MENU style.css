@@ -136,7 +136,7 @@ header {
     margin-block-end: 10px;
 }
 .breakfast-menu{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .breakfast-contain{
     display: grid;
@@ -168,10 +168,15 @@ header {
 }
 .price-lunch{
     position: absolute;
-  
     background-color: rgba(226, 230, 238, 0.2);
      color: #f35525;
-     display: block;
+    
+}
+.price-dinner{
+    position: absolute;
+    background-color: rgba(226, 230, 238, 0.2);
+    color: #f35525;
+    
 }
 
 @media(max-width: 768px) {
