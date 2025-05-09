@@ -110,7 +110,7 @@ header {
 
 .hero {
     display: flex;
-    height: 70vh ;
+    height: 76vh ;
     background: url("https://templatemo.com/templates/templatemo_507_victory/img/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,7 +200,7 @@ header {
         inset: 0 0 0 0;
         justify-content: center;
         color: white;
-        transform: translatez(0%);
+        transform: translatey(0%);
         transition: transform 350ms ease-in-out;
         
        }

@@ -26,8 +26,8 @@ Scroll back to top button.
 📄 Pages Added
 Pages have been added:
 
-Features Page: Highlights the core features of the Acuas water initiative.
-About Page: Provides background information about the purpose and goals of the Acuas project.
+1.home Page: Highlights the core features of the Acuas water initiative.
+2.contact Page: Provides background information about the purpose and goals of the Acuas project.
 Fact Counter Page: Displays dynamic statistics and key figures related to water consumption, customer reach, gallons saved, and project milestones. This page may include animated counters and infographics to make data engaging and informative.
 Service Page: Outlines all the services offered by Acuas. These might include water delivery, maintenance of purification systems, water testing, or consultation for communities and businesses. Each service is usually detailed with icons, descriptions, and visuals.
 Products Page: Showcases the range of products provided by Acuas — such as water bottles, purification kits, smart hydration gadgets, and eco-friendly filters. Each product includes a picture, name, short description, and possibly price or feature highlights.
