@@ -228,9 +228,38 @@ header {
     margin-top: 4rem;
     color: #db2434;
 } 
+/* 
+.service {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10rem; */
+    text-align: center;
+    margin-top: 7rem;
+    /* border-radius: 10px;
+    background-size: cover;
+    background-position: center; */
+}
 
 
+.service-item  {
+    width: 200px;
+    height: 200px;
+   text-align: center;
+ 
+}
 
+.service-item a {
+    text-align: center;
+    text-decoration: none;
+    color: #121212;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.service-item h4 {
+    margin-top: 1rem;
+    
+} */
 
 @media(max-width: 768px) {
     .desktop-menu {
@@ -312,6 +341,9 @@ header {
     width: 100%;
     height: 100%;
    } 
+   .info-hero  {
+    margin-bottom: 25px;
+   }
 
     .contact {
     flex-direction: column;
@@ -324,6 +356,19 @@ header {
     width: 90%;
     margin-left: 30px;
    } 
+/* 
+   .service {
+   flex-direction: column;
+   margin-top: 20rem;
+   margin-left: 5rem;
+   
+ 
+   }
+
+   .service-item {
+    margin-top: 13rem;
+    gap: -20px;
+   } */
 
 
 }
