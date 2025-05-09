@@ -158,6 +158,20 @@ header {
     width: 200px;
     height: 150px;
     position: relative;
+    display: inline-block;
+}
+.price{
+    position: absolute;
+    bottom: 0%;
+    background-color: rgba(226, 230, 238, 0.2);
+     color: #f35525;
+}
+.price-lunch{
+    position: absolute;
+  
+    background-color: rgba(226, 230, 238, 0.2);
+     color: #f35525;
+     display: block;
 }
 
 @media(max-width: 768px) {
