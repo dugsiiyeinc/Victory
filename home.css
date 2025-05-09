@@ -228,16 +228,14 @@ header {
     margin-top: 4rem;
     color: #db2434;
 } 
-/* 
+
 .service {
     display: flex;
     justify-content: space-between;
     /* gap: 10rem; */
     text-align: center;
     margin-top: 7rem;
-    /* border-radius: 10px;
-    background-size: cover;
-    background-position: center; */
+   
 }
 
 
@@ -259,7 +257,7 @@ header {
 .service-item h4 {
     margin-top: 1rem;
     
-} */
+} 
 
 @media(max-width: 768px) {
     .desktop-menu {
