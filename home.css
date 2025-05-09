@@ -354,7 +354,7 @@ header {
     width: 90%;
     margin-left: 30px;
    } 
-/* 
+ 
    .service {
    flex-direction: column;
    margin-top: 20rem;
@@ -363,10 +363,10 @@ header {
  
    }
 
-   .service-item {
+   /* .service-item {
     margin-top: 13rem;
     gap: -20px;
-   } */
+   }  */
 
 
 }
