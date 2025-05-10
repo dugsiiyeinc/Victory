@@ -161,12 +161,12 @@ header {
 }
 .box{
     background-color: white;
-
+padding: 10px;
 }
 
 .price{
-    position: absolute;
-    bottom: 0%;
+    /* position: absolute;
+    bottom: 0%; */
     background-color: rgba(226, 230, 238, 0.2);
      color: #f35525;
 }
@@ -275,6 +275,7 @@ display: block;
 text-decoration: none;
 border: none;
 border-radius: 5px;
+text-transform: uppercase;
 }
 footer{
     background-color: rgb(54, 62, 80);
