@@ -136,7 +136,7 @@ header {
     margin-block-end: 10px;
 }
 .breakfast-menu{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .breakfast-contain{
     display: grid;
@@ -145,7 +145,7 @@ header {
     background-color: rgb(242, 246, 255);
 }
 .breakfast-contain h2{
-    text-align: center;
+    text-align: left; 
     border-bottom: 2px solid black;
 }
 .breakfast-boxs{
@@ -154,10 +154,54 @@ header {
     gap: 10px;
 }
 .box img{
-    border-radius: 10px;
-    width: 200px;
-    height: 150px;
+    /* border-radius: 10px; */
+      width: 100%;
     position: relative;
+    display: inline-block;
+}
+.box{
+    background-color: white;
+
+}
+
+.price{
+    position: absolute;
+    bottom: 0%;
+    background-color: rgba(226, 230, 238, 0.2);
+     color: #f35525;
+}
+.price-lunch{
+    position: absolute;
+    background-color: rgba(226, 230, 238, 0.2);
+     color: #f35525;
+    
+}
+.price-dinner{
+    position: absolute;
+    background-color: rgba(226, 230, 238, 0.2);
+    color: #f35525;
+    
+}
+.box-containt h4{
+font-size: 18px;
+font-weight: 500;
+line-height: 19.8px;
+display: block;
+margin-block-end: 10px;
+margin-bottom: 10px;
+text-size-adjust: 100%;
+color: rgb(18, 18, 18);
+
+}
+.box-containt p{
+font-size: 13px;
+font-weight: 500;
+line-height: 24px;
+display: block;
+margin-block-end: 10px;
+margin-bottom: 20px;
+text-size-adjust: 100%;
+color: rgb(154, 154, 154);
 }
 
 @media(max-width: 768px) {
