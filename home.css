@@ -264,7 +264,7 @@ header {
     
 } 
 
-/* .flex-container {
+.flex-container {
     display: flex;
     width: 105.4rem;
     height: calc(100% - 4.5rem);
@@ -289,15 +289,15 @@ header {
     border-radius: 100px;
     position: relative;
    
-} */
+}
 
-/* .flex{
+.flex{
     display: flex;
     margin-top: 1rem;
     /* gap: 10px; */
 }
 
-/* .row  {
+.row  {
     margin-block: 3rem;
     margin-bottom: 2rem;
 }
@@ -308,8 +308,8 @@ header {
     padding: 13px;
     border-radius: 4px;
     margin-right: 12px;
-} */
-/* 
+}
+
 .info-option select {
     /* border-bottom: 1px solid white; */
     padding: 10px;
@@ -319,8 +319,8 @@ header {
     border-top: none;
     outline: none;
     
-} */ */
-/* 
+}
+
 .info-option h2 {
     text-align: center;
     font-size: 28px;
@@ -345,7 +345,7 @@ header {
     border-top: none;
     border-bottom: none;
     border-bottom: 1px solid #eee;
-} */
+}
 
 
 @media(max-width: 768px) {
