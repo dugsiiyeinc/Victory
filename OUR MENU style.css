@@ -204,6 +204,88 @@ text-size-adjust: 100%;
 color: rgb(154, 154, 154);
 }
 
+.table-section{
+    background-image: url("https://templatemo.com/templates/templatemo_507_victory/img/book-bg.jpg");
+    width: 100vw;
+    height: 90vh;
+    padding: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.head-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.right-info{
+background-color: white;
+text-align: left;
+}
+.right-info h4{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 30.8px;
+    margin-block-end: 10px;
+margin-bottom: 20px;
+text-size-adjust: 100%;
+}
+.tables{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.heading h2{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.2px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-block-end: 70px;
+margin-bottom: 70px;
+text-size-adjust: 100%;
+}
+select{
+    color: rgb(154, 154, 154);
+    cursor: text;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.btn{
+background-color: rgb(242, 116, 95);
+color: white;
+cursor: pointer;
+font-size: 13px;
+font-weight: 500;
+line-height: 18.5px;
+letter-spacing: 0.5px;
+padding-block-start: 12px;
+padding-block-end: 12px;
+padding-inline-start: 20px;
+padding-inline-end: 20px;
+display: block;
+text-decoration: none;
+border: none;
+border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 @media(max-width: 768px) {
     .desktop-menu {
         display: none;
