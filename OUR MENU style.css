@@ -400,5 +400,32 @@ footer{
     color: rgb(32, 12, 12);
    }
 
+.breakfast-contain{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.head-form{
+display: grid;
+grid-template-columns:1fr 1fr;
+width: 100%;
+height: 100%;
+}
+.tables{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+footer{
+    height: 100px;
+    /* gap: 10px; */
+}
+.social-media{
+    gap: 5px;
+}
+.footer-icon{
+    gap: 20px;
+}
+.design{
+font-size: 15px;
+}
 
 }
