@@ -481,7 +481,7 @@ header {
     
   } 
   
-  /* .blog-card {
+ .blog-card {
     display: flex;
     background: #fff;
     width: 550px;
@@ -505,7 +505,7 @@ header {
   .blog-content {
     padding: 15px;
     flex: 1;
-  } */
+  } 
   
   /* .blog-content .date {
     display: inline-block;
