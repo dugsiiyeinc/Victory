@@ -153,24 +153,25 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
-.box img{
+.img-box{
     /* border-radius: 10px; */
       width: 100%;
     position: relative;
-    display: inline-block;
 }
 .box{
     background-color: white;
-padding: 10px;
+   padding: 10px;
 }
 
 .price{
-    /* position: absolute;
-    bottom: 0%; */
+    position: absolute;
+     bottom: 0;
     background-color: rgba(226, 230, 238, 0.2);
      color: #f35525;
+     display: inline-block;
+   
 }
-.price-lunch{
+.price{
     position: absolute;
     background-color: rgba(226, 230, 238, 0.2);
      color: #f35525;
