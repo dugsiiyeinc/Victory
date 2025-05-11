@@ -150,6 +150,7 @@ margin-top: 40px;
     padding: 20px;
     border: none;
 }
+
 .btn{
     background-color: rgb(242, 116, 95);
     color: white;
@@ -179,7 +180,7 @@ margin-top: 40px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-block-end: 70px;
-margin-bottom: 70px;
+margin-bottom: 50px;
 text-size-adjust: 100%;
 }
 .contact-form h2{
@@ -192,7 +193,7 @@ text-size-adjust: 100%;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-block-end: 70px;
-margin-bottom: 70px;
+margin-bottom: 50px;
 text-size-adjust: 100%;
 }
 
