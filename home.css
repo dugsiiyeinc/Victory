@@ -529,7 +529,7 @@ header {
     margin-bottom: 10px;
   } 
   
-  /* .blog-content p {
+   .blog-content p {
     font-size: 14px;
     margin-bottom: 10px;
   }
@@ -552,11 +552,11 @@ header {
     border-radius: 1px;
   z-index: 2;
 
-  } */
+  } 
 
 /* belowga footerka */
 
-  /* .newsletter-section {
+  .newsletter-section {
     background: url('https://templatemo.com/templates/templatemo_507_victory/img/signup-bg.jpg') center center/cover no-repeat;
     height: 400px;
     position: relative;
@@ -588,7 +588,7 @@ header {
     border: none;
     border-radius: 3px 0 0 3px;
   } */
-/*   
+ 
   .form-box button {
     padding: 10px 20px;
     background: #333;
@@ -625,7 +625,7 @@ header {
     color: #ccc;
     text-align: right;
   }
-   */
+   
   /* footer dhmaadkisa */
   
   
