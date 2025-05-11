@@ -196,6 +196,29 @@ text-size-adjust: 100%;
 margin-bottom: 50px;
 text-size-adjust: 100%;
 }
+.contact-form P{
+font-size: 13px;
+font-weight: 500;
+line-height: 24px;
+display: block;
+margin-block-end: 10px;
+margin-bottom: 20px;
+text-size-adjust: 100%;
+color: rgb(154, 154, 154);
+}
+.contact-form em{
+font-size: 13px;
+font-weight: 500;
+line-height: 24px;
+display: block;
+margin-block-end: 10px;
+margin-bottom: 20px;
+text-size-adjust: 100%;
+color: rgb(154, 154, 154);
+}
+.map{
+    margin-top: 40px;
+}
 
 
 
