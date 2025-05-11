@@ -29,8 +29,8 @@ Pages have been added:
 1.home Page: Highlights the core features of the Acuas water initiative.
 2.contact Page: Provides background information about the purpose and goals of the Acuas project.
 Fact Counter Page: Displays dynamic statistics and key figures related to water consumption, customer reach, gallons saved, and project milestones. This page may include animated counters and infographics to make data engaging and informative.
-Service Page: Outlines all the services offered by Acuas. These might include water delivery, maintenance of purification systems, water testing, or consultation for communities and businesses. Each service is usually detailed with icons, descriptions, and visuals.
-Products Page: Showcases the range of products provided by Acuas — such as water bottles, purification kits, smart hydration gadgets, and eco-friendly filters. Each product includes a picture, name, short description, and possibly price or feature highlights.
+3.MENU Page: Outlines all the services offered by Acuas. These might include water delivery, maintenance of purification systems, water testing, or consultation for communities and businesses. Each service is usually detailed with icons, descriptions, and visuals.
+4.CONTACT  Page: Showcases the range of products provided by Acuas — such as water bottles, purification kits, smart hydration gadgets, and eco-friendly filters. Each product includes a picture, name, short description, and possibly price or feature highlights.
 Blog Page: features informative and engaging articles related to water health, hydration tips, environmental awareness, purification technologies, and updates from the Acuas team. It serves as a platform to educate users and share industry news, while also enhancing SEO and building community trust.
 Teams Page: Introduces the Acuas team members with professional photos, names, roles, brief bios, and social media links. The layout uses a responsive grid and hover overlay effects.
 Testimonial Page: Showcases customer feedback and success stories in a sliding carousel format. Each testimonial includes the customer’s name, photo, rating, and review text.
