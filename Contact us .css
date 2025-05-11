@@ -220,6 +220,44 @@ color: rgb(154, 154, 154);
     margin-top: 40px;
 }
 
+footer{
+    background-color: rgb(54, 62, 80);
+    padding: 10px;
+    height: 4.5rem;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.social-media li{
+    list-style: none;
+}
+.social-media li a{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.social-media li a :hover{
+    color: #f35525;
+}
+.copy{
+    color: white;
+}
+.design{
+    color: white;
+}
 
 
 
