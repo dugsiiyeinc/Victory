@@ -137,6 +137,10 @@ header {
     margin-block-end: 10px;
 }
 
+.form-contain{
+display: flex;
+flex-direction: row;
+}
 
 @media(max-width: 768px) {
     .desktop-menu {
