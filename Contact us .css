@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1900px;
+    font-family: 'Roboto', arial, sans-serif;;;
+}
+.container {
+    width: min(90%, 1120px);
+    margin-inline: auto;
+}
+img{
+    width: 100%;
+}
+
+header {
+    background-color: #eaf0ff;
+    height: 11rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.desktop-menu {
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    /* margin-top: 2rem; */
+}
+
+.logo-header {
+    position: absolute;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    color: #2c343b;
+    font-family: 'Roboto', sans-serif;
+     
+}
+
+.logo-header a {
+    text-decoration: none;
+    color: #362e26;
+    font-size: 3rem;
+}
+.desktop-menu li {
+    list-style: none;
+}
+.desktop-menu li a {
+    text-decoration: none;
+    
+}
+
+/* menus links */
+.menus-links {
+    display: flex; 
+    gap: 5rem;
+    margin-top: 5rem;
+    /* text-transform: uppercase; */
+}
+
+.menus-links li {
+    list-style: none;
+}
+
+.menus-links li a {
+    font-family: 'specical', sans-serif;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #362e26;
+}
+
+.menus-links li a:hover {
+    color: #db2434;
+}
+
+
+.hambeger {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+.mobile-menu-action {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 95%;
+} 
+.contact-us{
+    background-image: url("https://templatemo.com/templates/templatemo_507_victory/img/heading-bg.jpg");
+    width: 100vw;
+    height: 50vh;
+    padding: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.conteint-us{
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    text-size-adjust: 100%;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+} 
+.conteint-us h2{
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 48.4px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    margin-block-end: 10px;
+    margin-block-start: 20px;
+    margin-top: 60px;
+}
+
+.conteint-us p{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    margin-block-end: 10px;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    i {
+        z-index: 11111;
+    }
+
+     /* header {
+        top: 3rem;
+    }  */
+
+    .hambeger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 5%;
+        right: 10px;
+        background-color: #848fda;
+        padding: 10px 10px;
+        border-radius: 50%;
+        font-size: 2rem;
+        width: 50px;
+        height: 50px;
+        color: white;
+    }
+
+
+    .mobile-menu {
+        display: flex;
+        position: fixed;
+        background-color: #2b2b2b;
+        inset: 0 0 0 0;
+        justify-content: center;
+        color: white;
+        transform: translatez(0%);
+        transition: transform 350ms ease-in-out;
+        
+       }
+         
+       .mobile-menu[data-visible="false"] {
+           transform: translatey(100%);
+       }
+   
+       .hambeger i[data-visible="true"] {
+           display: block;
+       }
+       
+       .hambeger i[data-visible="false"] {
+        display: none;
+    }
+
+    
+   .mobile-menu .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 5px;
+    width: 100%;
+
+     
+   }
+
+   .mobile-menu .navigation .menus-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   }
+   .menus-links li a {
+    color: rgb(32, 12, 12);
+   }
+
+
+   }
