@@ -338,6 +338,25 @@ footer{
    .menus-links li a {
     color: rgb(32, 12, 12);
    }
+   
+.form-contain{
+    display: flex;
+    flex-direction: column;
+}
 
+
+   footer{
+    height: 100px;
+    /* gap: 10px; */
+}
+.social-media{
+    gap: 5px;
+}
+.footer-icon{
+    gap: 20px;
+}
+.design{
+font-size: 15px;
+}
 
    }
