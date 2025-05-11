@@ -463,7 +463,7 @@ header {
 /* push now */
   /* dhmaadaka gridka */
  
-  /* .blog-section {
+  .blog-section {
     background-color: #f2f6ff;
     margin-top: 5rem;
     padding: 20px;
@@ -479,7 +479,7 @@ header {
     gap: 20px;
     justify-content: center;
     
-  } */
+  } 
   
   /* .blog-card {
     display: flex;
