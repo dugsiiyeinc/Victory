@@ -137,6 +137,131 @@ header {
     margin-block-end: 10px;
 }
 
+.form-contain{
+display: flex;
+flex-direction: row;
+gap: 40px;
+margin-top: 40px;
+}
+.left-right-form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border: none;
+}
+
+.btn{
+    background-color: rgb(242, 116, 95);
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18.5px;
+    letter-spacing: 0.5px;
+    padding-block-start: 5px;
+    padding-block-end: 5px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    display: block;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.forms h2{
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24.2px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-block-end: 70px;
+margin-bottom: 50px;
+text-size-adjust: 100%;
+}
+.contact-form h2{
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24.2px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-block-end: 70px;
+margin-bottom: 50px;
+text-size-adjust: 100%;
+}
+.contact-form P{
+font-size: 13px;
+font-weight: 500;
+line-height: 24px;
+display: block;
+margin-block-end: 10px;
+margin-bottom: 20px;
+text-size-adjust: 100%;
+color: rgb(154, 154, 154);
+}
+.contact-form em{
+font-size: 13px;
+font-weight: 500;
+line-height: 24px;
+display: block;
+margin-block-end: 10px;
+margin-bottom: 20px;
+text-size-adjust: 100%;
+color: rgb(154, 154, 154);
+}
+.map{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: rgb(54, 62, 80);
+    padding: 10px;
+    height: 4.5rem;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.social-media li{
+    list-style: none;
+}
+.social-media li a{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.social-media li a :hover{
+    color: #f35525;
+}
+.copy{
+    color: white;
+}
+.design{
+    color: white;
+}
+
+
+
 
 @media(max-width: 768px) {
     .desktop-menu {
