@@ -460,9 +460,176 @@ header {
     color: #666;
     line-height: 1.4;
   } 
-
+/* push now */
   /* dhmaadaka gridka */
+ 
+  /* .blog-section {
+    background-color: #f2f6ff;
+    margin-top: 5rem;
+    padding: 20px;
+  }
+.blog-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .blog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+  } */
+  
+  /* .blog-card {
+    display: flex;
+    background: #fff;
+    width: 550px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease;
+  }
 
+  .blog-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .blog-card img {
+    width: 190px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .blog-content {
+    padding: 15px;
+    flex: 1;
+  } */
+  
+  /* .blog-content .date {
+    display: inline-block;
+    background: #fde4e4;
+    color: #e45858;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    
+  }
+  
+  .blog-content h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+  
+  .blog-content .meta {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+  } */
+  
+  /* .blog-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-content a {
+    color: #e45858;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .data-oveyley {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #e8e6e4;
+    color: #e45858;
+    padding: 10px 10px;
+    font-size: 13px;
+    border-radius: 1px;
+  z-index: 2;
+
+  } */
+
+/* belowga footerka */
+
+  /* .newsletter-section {
+    background: url('https://templatemo.com/templates/templatemo_507_victory/img/signup-bg.jpg') center center/cover no-repeat;
+    height: 400px;
+    position: relative;
+    color: white;
+    
+  }
+  
+  .overlay {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .overlay h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-box {
+    display: flex;
+  }
+  
+  .form-box input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+  } */
+/*   
+  .form-box button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .footer {
+    background-color: #2c3440;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    position: relative;
+  }
+  
+  .footer .social-icons {
+    margin: 15px 0;
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .activate-note {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 12px;
+    color: #ccc;
+    text-align: right;
+  }
+   */
+  /* footer dhmaadkisa */
+  
+  
+  
 
 @media(max-width: 768px) {
     .desktop-menu {
@@ -602,6 +769,27 @@ header {
   .food-card p {
   text-align: left;
   } 
+
+/* push */
+  /* .blog-card {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .blog-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-content {
+    text-align: center;
+}
+
+.newsletter-section  {
+    width: 100%;
+    text-align: center;
+}
+ */
 
 
    
