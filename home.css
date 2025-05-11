@@ -507,7 +507,7 @@ header {
     flex: 1;
   } 
   
-  /* .blog-content .date {
+ .blog-content .date {
     display: inline-block;
     background: #fde4e4;
     color: #e45858;
@@ -527,7 +527,7 @@ header {
     font-size: 14px;
     color: gray;
     margin-bottom: 10px;
-  } */
+  } 
   
   /* .blog-content p {
     font-size: 14px;
