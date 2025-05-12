@@ -6,6 +6,7 @@ body{
     max-width: 1900px;
     font-family: 'Roboto', arial, sans-serif;;;
 }
+
 .container {
     width: min(90%, 1120px);
     margin-inline: auto;
@@ -166,17 +167,26 @@ header {
 
 .price-breakfast{
     position: absolute;
-     bottom: 0;
     background-color: rgba(226, 230, 238, 0.2);
      color: #f35525;
      display: inline-block;
    
+}
+.img-box-lunch{
+    /* border-radius: 10px; */
+      width: 100%;
+    position: relative;
 }
 .price-lunch{
     position: absolute;
     background-color: rgba(226, 230, 238, 0.2);
      color: #f35525;
     
+}
+.img-box-dinner{
+    /* border-radius: 10px; */
+      width: 100%;
+    position: relative;
 }
 .price-dinner{
     position: absolute;
