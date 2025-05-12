@@ -146,7 +146,7 @@ margin-top: 40px;
 .left-right-form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 60px;
     padding: 30px;
     border: none;
 }
