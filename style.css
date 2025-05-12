@@ -613,6 +613,7 @@ header {
   .footer .social-icons {
     margin: 15px 10px;
     transition: transform 0.3s ease;
+    border-radius: 50%;
    
      
   }
@@ -623,7 +624,7 @@ header {
     text-decoration: none;
     font-size: 27px;
     background-color: #ccc;
-    border-radius: 10px;
+    border-radius: 22%
    
     
     
@@ -685,6 +686,73 @@ header {
     line-height: 24px;
     margin-bottom: 10px;
     margin-block-end: 10px;
+}
+
+
+
+.card {
+  background: #e8effa;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card .date {
+  color: #f15b2a;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 14px;
+  position: absolute;
+  margin-top: -23.4rem;
+  margin-right: 7rem;
+  margin-left: -2.1rem;
+  background-color: #ccc;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.card .title {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #222;
+}
+
+.card .meta {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.card .description {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 15px;
+  color: #f15b2a;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
 }
 
   
@@ -852,6 +920,18 @@ header {
 .footer  {
   flex-direction: column;
 
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card .title {
+  font-size: 18px;
+}
+
+.card .description {
+  font-size: 13px;
 }
  
 
