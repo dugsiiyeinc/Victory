@@ -165,7 +165,6 @@ header {
 
 .price-breakfast{
     position: absolute;
-     bottom: 0;
     background-color: rgba(226, 230, 238, 0.2);
      color: #f35525;
      display: inline-block;
