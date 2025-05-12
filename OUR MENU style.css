@@ -6,6 +6,7 @@ body{
     max-width: 1900px;
     font-family: 'Roboto', arial, sans-serif;;;
 }
+
 .container {
     width: min(90%, 1120px);
     margin-inline: auto;
