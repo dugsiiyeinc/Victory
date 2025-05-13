@@ -8,7 +8,7 @@ body{
     font-family: 'Roboto', arial, sans-serif;;;
 }
 .container {
-    width: min(90%, 1120px);
+    width: min(100%, 1120px);
     margin-inline: auto;
 }
 img{
@@ -192,9 +192,9 @@ margin-top: 40px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-block-end: 70px;
-margin-bottom: 50px;
-text-size-adjust: 100%;
-margin-left: 20px;
+    margin-bottom: 50px;
+    text-size-adjust: 100%;
+    margin-left: 20px;
 }
 .contact-form h2{
     text-align: left;
@@ -206,8 +206,8 @@ margin-left: 20px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-block-end: 70px;
-margin-bottom: 50px;
-text-size-adjust: 100%;
+    margin-bottom: 50px;
+    text-size-adjust: 100%;
 }
 .contact-form P{
 font-size: 13px;
@@ -234,44 +234,54 @@ color: rgb(154, 154, 154);
     margin-bottom: 20px;
 }
 
-footer{
-    background-color: rgb(54, 62, 80);
-    padding: 10px;
-    height: 4.5rem;
-}
-.footer-icon{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+.footer {
+    background-color: #2c3440;
+    color: white;
     text-align: center;
-    align-items: center;
-    margin-top: 20px;
-    
-}
-.social-media{
+    padding: 30px 15px;
+    position: relative;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
-}
-.social-media li{
-    list-style: none;
-}
-.social-media li a{
-    color: black;
-    background-color: white;
+
+  }
+  
+  .footer .social-icons {
+    margin: 15px 10px;
+    transition: transform 0.3s ease;
     border-radius: 50%;
-    padding: 10px;
-    cursor: pointer;
-}
-.social-media li a :hover{
-    color: #f35525;
-}
-.copy{
-    color: white;
-}
-.design{
-    color: white;
-}
+   
+     
+  }
+  
+  .footer .social-icons a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+    background-color: #ccc;
+    border-radius: 50%;
+    padding: 5px;
+   
+    
+    
+  }
+  
+  .social-icons :hover {
+    background-color: #db2434;
+    transform:   translatey(-5px);
+  }
+  
+  .activate-note {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 12px;
+    color: #ccc;
+    text-align: right;
+  }
 
 
 
@@ -349,7 +359,7 @@ footer{
     align-items: center;
    }
    .menus-links li a {
-    color: rgb(32, 12, 12);
+    color: rgb(230, 223, 223);
    }
    
 .form-contain{
@@ -357,19 +367,9 @@ footer{
     flex-direction: column;
 }
 
-   footer{
-    height: 100px;
-    
-    /* gap: 10px; */
-}
-.social-media{
-    gap: 5px;
-}
-.footer-icon{
-    gap: 20px;
-}
-.design{
-font-size: 15px;
-}
+   .footer{
+    height: 100%;
+    flex-direction: column;
+   }   
 
-   }
+}
