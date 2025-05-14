@@ -938,6 +938,10 @@ header {
 .card .description {
   font-size: 13px;
 }
+ .image-section h2 {
+  font-size: 1.5rem;
+   margin-right: 6rem;
+ }
  
 
 

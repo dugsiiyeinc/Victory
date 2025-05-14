@@ -374,9 +374,9 @@ text-transform: uppercase;
         z-index: 11111;
     }
 
-     /* header {
-        top: 3rem;
-    }  */
+     header {
+        height: 0;
+    } 
 
     .hambeger {
         display: flex;
