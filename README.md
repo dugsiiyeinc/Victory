@@ -8,35 +8,64 @@ Eng. BURHAAN
 
 📅 Date: Wednesday, may 10, 2025
 
-📁 Project Structure
-The following folders and files have been added as part of this contribution:
+# Victory Template - Overview
 
-📦 assets/
-This folder contains all the resources needed to design the website.
+**Victory** is a free responsive HTML5/CSS3 template designed by [TemplateMo](https://templatemo.com) for restaurant and café websites. It includes ready-to-use sections for menus, blog, reservations, and contact forms.
 
-img/: Contains all images used across the website (banners, icons, illustrations, etc).
-css/: Contains the stylesheet.
-style.css: Main CSS file that handles layout, design, and responsiveness.
-js/: Contains JavaScript logic.
-main.js:  JS file responsible for interactive features such as:
-Navigation menu toggling (mobile responsive menu).
-Scroll animations and section reveal effects.
-Carousel controls for Testimonials and Team members sections.
-Scroll back to top button.
-📄 Pages Added
-Pages have been added:
+---
 
-1.home Page: Highlights the core features of the Acuas water initiative.
-2.contact Page: Provides background information about the purpose and goals of the Acuas project.
-Fact Counter Page: Displays dynamic statistics and key figures related to water consumption, customer reach, gallons saved, and project milestones. This page may include animated counters and infographics to make data engaging and informative.
-3.MENU Page: Outlines all the services offered by Acuas. These might include water delivery, maintenance of purification systems, water testing, or consultation for communities and businesses. Each service is usually detailed with icons, descriptions, and visuals.
-4.CONTACT  Page: Showcases the range of products provided by Acuas — such as water bottles, purification kits, smart hydration gadgets, and eco-friendly filters. Each product includes a picture, name, short description, and possibly price or feature highlights.
-5.Blog Page: features informative and engaging articles related to water health, hydration tips, environmental awareness, purification technologies, and updates from the Acuas team. It serves as a platform to educate users and share industry news, while also enhancing SEO and building community trust.
-Teams Page: Introduces the Acuas team members with professional photos, names, roles, brief bios, and social media links. The layout uses a responsive grid and hover overlay effects.
-Testimonial Page: Showcases customer feedback and success stories in a sliding carousel format. Each testimonial includes the customer’s name, photo, rating, and review text.
- Provides an interactive contact form for inquiries, including fields for name, email, subject, and message. Integrates a Google Maps embed to show Acuas office location and includes contact details (phone, email, and social media links).
-404 Page: Custom 404 error page with friendly messaging, a search bar for finding content, and navigation links to return users to the Home, Features, or Contact pages.
-🚀 Technologies Used
+## 1. Home Page
+
+The Home page serves as the welcoming interface for users and includes:
+
+- **Hero Section**: Eye-catching banner with intro text and image.
+- **Contact Info**: Quick access to the restaurant’s phone number.
+- **Meal Categories**: Links to Breakfast, Lunch, Dinner, and Dessert menus.
+- **Reservation Form**: Book a table by selecting date, time, and guests.
+- **Mobile App Promo**: Section promoting a downloadable mobile application.
+
+---
+
+## 2. Our Menus
+
+Dedicated section to display menu items:
+
+- **Meal Sliders**: Interactive carousel with images and details for each category (Breakfast, Lunch, Dinner, Desserts).
+- **Dish Information**: Includes title, short description, price, and image of each meal.
+
+---
+
+## 3. Blog Entries
+
+Informative section to engage with visitors:
+
+- **Recent Posts**: Shows articles with title, date, and summary.
+- **Read More**: Links to full posts for more detailed reading.
+
+---
+
+## 4. Contact Us
+
+Allows users to get in touch or subscribe:
+
+- **Contact Form**: Submit message directly via the site.
+- **Newsletter Signup**: Enter email to receive restaurant updates.
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (minimal interactivity)
+- Fully responsive design
+
+---
+
+## License
+
+This template is free for personal and commercial use under the TemplateMo license. For more, visit [https://templatemo.com](https://templatemo.com).
+
 HTML5
 CSS3
 FontAwesome (for icons)
