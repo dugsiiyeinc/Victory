@@ -1,5 +1,4 @@
 VICTORY WEBSITE Restaurant
-This is a collaborative web project hosted on GitHub titled Acuas, focused on promoting clean water and healthy drinking habits. The website is being developed as part of a collaboration effort.
 
 👤 Contributor
 Eng. XAFSA
